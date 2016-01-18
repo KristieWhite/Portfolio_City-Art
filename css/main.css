@@ -1,0 +1,82 @@
+#header {
+  border-bottom: 18px solid #aaa;
+}
+h1 {
+  text-shadow: 1px 1px #ccc;
+}
+
+#githubIcon {width: 60px;}
+#twitterIcon {width: 60px;}
+#linkedIn {width: 60px;}
+
+/*social icons*/
+#iconDiv {
+  margin: auto;
+}
+.icons {
+  margin: 0 0 0 0;
+}
+#smileIcon img {
+  /*text-align: center;*/
+}
+#rowAboutMe {
+  padding: 1rem;
+}
+
+.divAboutMe {
+  /*height is styled in queries*/
+  margin-top: 5%;
+  background-color: rgba(90, 114, 134, 0.33);
+  color: #eee;
+  overflow: auto;
+  padding: 1rem;
+  border: 5px solid rgb(21, 22, 18);
+}
+.divAboutMe > img {
+  /*text-align: center;*/
+}
+
+.divProjects {
+  /*height is styled in queries*/
+  background-color: rgb(250, 250, 250);
+  color: black;
+  margin-top: 10%;
+  border: 5px solid rgb(21, 22, 18);
+  padding: 1rem;
+}
+
+#rowProjects h3 {
+  background-color: rgb(245, 245, 245);
+}
+
+#rowProjects p {
+  background-color: rgb(245, 245, 245);
+}
+
+.divProjects img {
+  width: 100%;
+}
+
+#header h5 {
+  margin-top: 2rem;
+}
+
+#rowNasa {
+  /*background-color: #109eb7;*/
+  background-color: rgba(89, 111, 131, 0.33);
+  color: white;
+  border: 5px solid rgb(21, 22, 18);
+  padding: 1rem;
+}
+
+#nasaApi {
+  border-right: 1px solid #ddd;
+  padding-right: 2rem;
+}
+
+#whyNasa {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  padding: 1rem;
+  /*border: 15px solid rgba(0, 0, 10, 0.90);*/
+}

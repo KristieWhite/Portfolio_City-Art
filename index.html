@@ -1,139 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Kristie White</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- <link rel="icon" type="image/png" href="art/favicon3.ico"> -->
+  <link rel="icon" type="image/png" href="art/Mercury-B_Gfavicon2.png">
 
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="u-full-width" id="header">
-       <h1>Kristie White</h1>
-       <h5>Front End Developer - Las Vegas, NV</h5>
-      </div>
-    </div><!--row for header-->
+    <div class="container">
+  
+   		<div class="row">
+	   		 <div class="u-full-width" id="header">
+	      		 <h1>Kristie White</h1>
+	      		 <h5 class="u-pull-left">Front End Developer - Las Vegas, NV</h5>
+	      		 <p class="clearFloat"></p>
+	    	</div>
+   		</div><!--row for header-->
 
-    <div class="row">
-      <div class="column" id="iconDiv">
-       <p class="center"><span class="icons"><a href="https://www.linkedin.com/in/kristie-white-47765680"><img id="linkedIn" src="images/linkedIn.png"/></a>
-       <a href="https://twitter.com/ZodiacKTW"><img id="twitterIcon" src="images/twitter_icon.png"></a>
-       <a href="https://github.com/KristieWhite"><img id="githubIcon" src="images/github2.png"/></a></span></p>
-      </div>
-    </div><!--row for social icons-->
+   	    <div class="row iconRow">
+     	    <div class="column" id="iconDiv">
+          	 	<p class="clearFloat"></p>
 
-    <div class="row" id="rowAboutMe">
-      <section  id="aboutMe">
-        <div class="u-full-width divAboutMe" style="margin-top: 10%">
-          <h4>About Me</h4><p class="inline center"><img id="smileIcon" src="images/smile.png"></p>
-          <p>In 2013, I purchased CS6 Design &amp; Web and subscribed to Creative Cloud (still have them), and have been geeking away with Photoshop, Illustrator, Dreamweaver, HTML5 &amp; CSS3. Playing with Adobe and code was so much fun, I decided to take it to a new level and learn programming. After self teaching here and there for about a year, I enrolled at The Iron Yard in the Front End Engineering course. It was a 3 month immersive boot camp and they taught a lot of code! As I continue to learn as much as possible with both Adobe software and code, I will be adding more projects to my portfolio and GitHub.</p>
-          <p>In the next section, you will find pictures, descriptions and links to my work.</p>
-        </div><!--about me-->
-      </section>
-    </div><!--row for about me-->
-      <div class="row" id="rowProjects">
-        <!-- <p>Here are some projects I did while attending The Iron Yard.</p> -->
-       
-        <div class="one-third column divProjects">
-          <h4 class="center">Animals Delight</h4>
-          <img src="images/AnimalDelight20.jpg"/>
-          <h6 class="center"><a id="animal">read me...</a></h6>
-          <p id="animalDesc" class="">This is Assignment-20_Animals on my GitHub account. The pictures are URL links that are dependent on online sources. The add feature works, but the Parse may be slow to show updates. Used HTML5, CSS, Backbone, Mustache and Parse.</p>
-          <p class="center"><a id="animalLink" href="http://www.kwanimals.surge.sh">Animals Delight on Surge</a></p>
-        </div>
+    	 	 	<!--buttons-->
+           		<p class="center"><button id="navProjects"><a href="#h4Projects">Projects</a></button>
+      			<button id="navLinkedIn"><a href="https://www.linkedin.com/in/kristie-white-47765680">LinkedIn</a></button>
+    			<!-- <button id="navTwitter" ><a href="https://twitter.com/ZodiacKTW">Twitter</a></button> -->
+            <button id="navTumblr"><a href="http://nighttime-tranquility.tumblr.com/">Tumblr</a></button>
+    	   	  <button id="navGitHub"><a href="https://github.com/KristieWhite">GitHub</a></button>
+    	   	 	<button id="navFunStuff"><a href="#h5FunStuff">Fun Stuff</a></button>
+     	  		<!-- <button id="contactMe"><a href="#">Contact Me</a></button></p> -->
+     	  		<!-- <button id="navResume"><a href="documents/KW_dev_web.pdf">Resume</a></button></p> -->
 
-        <div class="one-third column divProjects">
-          <h4 class="center">Accordian</h4>
-          <img src="images/accordian3.png"/>
-          <h6 class="center"><a id="accordian">read me...</a></h6>
-          <!-- <p class="clearFloat"></p> -->
-          <p id="accordianDesc">This is an accordian. Pretty cool! It is listed as Assignment-10 on my GitHub.</p>
-          <p class="center"><a id="accordianLink" href="http://kristiewhite.github.io/Assignment-10/">Accordian on gh-pages</a></p>
-        </div>
+            <!--drop down menu-->
+            <ul>
+              <li><a>Go To</a>
+                <ul>
+                  <li><a>About Me</a></li>
+                  <li><a>Projects</a></li>
+                  <li><a>Fun Stuff</a></li>
+                </ul>
+              </li><!--go to-->  
+              <li><a>Social Media</a>
+                <ul>
+                  <li><a>LinkedIn</a></li>
+                  <li><a>Tumblr</a></li>
+                  <li><a>Twitter</a></li>
+                </ul>
+              </li><!--social media-->
+              <li><a>Contact Me</a>
+                <ul>
+                  <li><a>email</a></li>
+                </ul>
+              </li><!--contact me-->
+            </ul>
 
-        <div class="one-third column divProjects">
-          <h4 class="center">Faux Restaurant</h4>
-          <img src="images/faux_restaurant.jpg"/>
-          <h6 class="center"><a id="faux">read me...</a></h6>
-          <p id="fauxDesc">Coming soon... This was my first group project. It contains restaurant API data and a google API. Lots of css! This can be found on my GitHub as Assignment-14_Group-Project.</p>
-          <p class="center"><a id="fauxLink" href="http://www.kw14groupproject.surge.sh">See this project deployed on Surge</a></p>
 
-        </div>
-      </div><!--row for projects-->
+    	  		<!--social icons-->
+      	   		<p class="center"><span class="icons"><a href="https://www.linkedin.com/in/kristie-white-47765680"><img id="linkedIn" src="images/linkedIn.png"/></a>
+     	     	<a href="https://twitter.com/ZodiacKTW"><img id="twitterIcon" src="images/twitter_icon.png"></a>
+     	     	<a href="https://github.com/KristieWhite"><img id="githubIcon" src="images/github2.png"/></a>
+     	     	<a href="documents/KW_dev_web2.pdf" ><img id="documentIcon" src="images/documentIcon.png"/></a>
+     	     	<a href="mailto:kristie@kristiewhite.net" ><img id="emailIcon" src="images/emailIcon.png"/></a></span></p>
 
-      <div id="rowProjects2">
-        <div class="one-third column divProjects">
-          <h4 class="center">TBD...</h4>
-          <img src="images/coming_soon.jpg"/>
-          <h6 class="center"><a id="peter">read me...</a></h6>
-          <p id="peterDesc">Coming soon... To Be Determined</p>
-          <p class="center"><a></a></p>
-        </div>
+      	 		<h6 class="center" id="emailHeader"><a href="mailto:kristie@kristiewhite.net">email: kristie@kristiewhite.net</a></h6>
+       		</div>
+    	</div><!--row for social icons-->
 
-        <div class="one-third column divProjects">
-          <h4 class="center">Skinny Ties</h4>
-          <img src="images/skinny_ties.jpg"/>
-          <h6 class="center"><a id="skinnyTies">read me...</a></h6>
-          <p id="skinnyTiesDesc">This site was made to mock a picture. It is Assignment-04-Hard_Skinny-Ties on my GitHub.</p>
-          <p class="center"><a id="skinnyTiesLink" href="http://www.kw4skinnyties.surge.sh">See Skinny Ties on Surge</a></p>
-        </div>
+    	<div class="row" id="aboutMeTitle">
+        	<div class="u-full-width" style="margin-top: 8%">
+           		<h5 class="inline" id="h5AboutMe">ABOUT ME</h5>
+           		<a href="#header"><img class="arrowUp" src="art/arrow_up.png" alt="arrow up"></a>
+           		<a href="#projectTitle"><img class="arrowDown" src="art/arrow_down3.png" alt="arrow down"></a>
+        	</div>
+    	</div><!--row aboutTitle-->
 
-        <div class="one-third column divProjects">
-          <h4 class="center">ETSY Whiskey</h4>
-          <img src="images/etsy_whiskey369.jpg"/>
-          <h6 class="center"><a id="etsyWhiskey">read me...</a></h6>
-          <p id="etsyWhiskeyDesc">This is a CSS mock-up of ETSY. Thumbnail pics are from a attached JSON file. It is Assignment-11_Whiskey on my Github.</p>
-          <p class="center"><a id="etsyWhiskeyLink" href="http://www.kw11etsywhiskey.surge.sh">See mock-up published on Surge.</a></p>
-       </div>
-      </div><!--row for projects2-->
+    	<div class="row" id="rowAboutMe">
+        	<div class="u-full-width divAboutMe">
+        <!-- <h5><b>ABOUT ME</b></h5> -->
 
-      <p class="u-cf"></p>
+        		<p>In 2013, I purchased CS6 Design &amp; Web and subscribed to Creative Cloud (still have them), and have been geeking away with Adobe Photoshop, Illustrator, Dreamweaver, InDesign, HTML5 &amp; CSS3. Playing with Adobe software and coding was so much fun, I decided to take it to a new level and learn Front End Development. After self teaching here and there, I enrolled at The Iron Yard in the Front End Engineering course. It was a 3 month immersive boot camp and they taught a lot of code! School projects included HTML5, CSS3 (Fluid Grid and Media Queries), JQuery, AJAX, JavaScript, Git, Mustache, Backbone and React with Webpack.</p>
 
-      <div class="row" style="margin-top: 5%" id="rowNasa">
-      <div class="two-thirds column" id="nasaApi">
-        <h4 id="apod_title"></h4>
-        <img id="apod_img_id" width="300px"/>
-        <p id="copyright"></p>
-        <p id="apod_explanation"></p>
-      </div>
+       	    	<p>In pursuit of my new career, I am looking forward to working with a Senior Developer to expand my skills. I am flexible in which direction to go, as I enjoy doing different things. I believe the sky is the limit when it comes to code... and just about everything! From something specialized like mobile device development, wearable devices, games, or making a desktop website, all is good! In the next section, you will find pictures, descriptions and links to my work.</p>
+        	</div><!--about me-->
+    	</div><!--row about me-->
 
-      <div class="one-third column" id="whyNasa">
-        <p>Why is there a daily NASA picture on my portfolio? Well, I have always had a love for everything in the stars. It reminds me that nothing is impossible and that the universe is the limit! The picture is linked to NASA's live API and changes daily. If you do not see an image, check back later... they could be updating it.</p>
-        <p class="center"><a href="https://github.com/KristieWhite">Click here for my GitHub account.</a></p>
-      </div>
-    </div><!--row for nasa-->
+    	<div class="row" id="projectTitle">
+        	<div class="u-full-width projects" style="margin-top: 8%">
+            	<h5 class="inline" id="h5Projects">CODE PROJECTS</h5>
+            	<a href="#aboutMeTitle"><img class="arrowUp" src="art/arrow_up.png" alt="arrow up"></a>
+            	<a href="#nasaFun"><img class="arrowDown" src="art/arrow_down3.png" alt="arrow down"></a>
+        	</div>
+   	 	</div><!--row projectTitle-->
 
-  </div><!--container-->
+      	<div class="row" id="rowProjects">
+
+        	<div class="one-third column divProjects"><a href="http://www.kwanimals.surge.sh">
+          		<h4 class="center">Animals Delight</h4>
+          		<img src="images/AnimalDelight20.jpg"/>
+          		<p class="center"><a id="animal">read me...</a></p>
+          		<p id="animalDesc" class="">This is Assignment-20_Animals on my GitHub account. The pictures are URL links that are dependent on online sources. The add feature works, but the Parse may be slow to show updates. Used HTML5, CSS, Backbone, Mustache and Parse.</p>
+          		<p class="center"><a id="animalLink" href="http://www.kwanimals.surge.sh">Animals Delight on Surge</a></p>
+        	</a></div>
+
+        	<div class="one-third column divProjects"><a href="http://kristiewhite.github.io/Assignment-10/">
+          		<h4 class="center">Accordian</h4>
+          		<img src="images/accordian3.png"/>
+          		<p class="center"><a id="accordian">read me...</a></p>
+          		<p id="accordianDesc">This is an accordian. Pretty cool! It is listed as Assignment-10 on my GitHub.</p>
+          		<p class="center"><a id="accordianLink" href="http://kristiewhite.github.io/Assignment-10/">Accordian on gh-pages</a></p>
+        	</a></div>
+
+        	<div class="one-third column divProjects"><a href="http://www.kw14groupproject.surge.sh">
+          		<h4 class="center">Faux Restaurant</h4>
+          		<img src="images/faux_restaurant.jpg"/>
+          		<p class="center"><a id="faux">read me...</a></p>
+          		<p id="fauxDesc">This was my first group project. It contains restaurant API data and a google API. Lots of css! This can be found on my GitHub as Assignment-14_Group-Project.</p>
+          		<p class="center"><a id="fauxLink" href="http://www.kw14groupproject.surge.sh">See this project deployed on Surge</a></p>
+        	</a></div>
+      	</div><!--row for projects-->
+
+      	<div id="rowProjects2">
+
+        	<div class="one-third column divProjects"><a href="https://github.com/jaimariev/ptc_app/commits/kristie">
+          		<h4 class="center">Parent-Teacher</h4>
+          		<img src="images/teacher_parent.png"/>
+          		<p class="center"><a id="tpConnection">read me...</a></p>
+          		<p id="tpConnectionDesc">This was our final project at TIY. We had 3 front end students and 1 back end student. It is a multi-user Parent-Teacher Web App. It was a huge project and we learned a lot about specific user API integration, group colloration and merge conflicts on Git.</p>
+          		<p class="center"><a id="tpConnectionLink" href="https://github.com/jaimariev/ptc_app/commits/kristie">See code on GitHub.</a></p>
+        	</a></div>
+
+        	<div class="one-third column divProjects"><a href="http://www.kw4skinnyties.surge.sh">
+          		<h4 class="center">Skinny Ties</h4>
+          		<img src="images/skinny_ties.jpg"/>
+          		<p class="center"><a id="skinnyTies">read me...</a></p>
+          		<p id="skinnyTiesDesc">This site was made to mock a picture. It is Assignment-04-Hard_Skinny-Ties on my GitHub.</p>
+          		<p class="center"><a id="skinnyTiesLink" href="http://www.kw4skinnyties.surge.sh">See Skinny Ties on Surge</a></p>
+        	</a></div>
+
+        	<div class="one-third column divProjects"><a href="http://www.kw11etsywhiskey.surge.sh">
+          		<h4 class="center">ETSY Whiskey</h4>
+          		<img src="images/etsy_whiskey369.jpg"/>
+          		<p class="center"><a id="etsyWhiskey">read me...</a></p>
+          		<p id="etsyWhiskeyDesc">This is a CSS mock-up of ETSY. Thumbnail pics are from a attached JSON file. It is Assignment-11_Whiskey on my Github.</p>
+          		<p class="center"><a id="etsyWhiskeyLink" href="http://www.kw11etsywhiskey.surge.sh">See mock-up published on Surge.</a></p>
+       		</a></div>
+      	</div><!--row for projects2-->
+
+     	 <p class="u-cf"></p>
+
+      	<div class="row" id="nasaFun">
+       		<div class="u-full-width" style="margin-top: 7%">
+          		<h5 class="inline" id="h5FunStuff">SOME FUN STUFF...</h5>
+          		<a href="#projectTitle"><img class="arrowUp" src="art/arrow_up.png" alt="arrow up"></a>
+          		<a href="#footer"><img class="arrowDown" src="art/arrow_down3.png" alt="arrow down"></a>
+        	</div>
+      	</div><!--row nasaFun-->
+
+      	<div class="row" id="rowNasa">
+        	<div class="two-thirds column" id="nasaApi">
+          		<h4 id="apod_title"></h4>
+          		<img id="apod_img_id" width="300px"/>
+          		<p id="copyright"></p>
+          		<p id="apod_explanation"></p>
+        	</div>
+
+        	<div class="one-third column" id="whyNasa">
+          		<p>Why is there a daily NASA picture on my portfolio? Well, I have always had a love for everything in the stars. It reminds me that nothing is impossible and that the universe is the limit! The picture is linked to NASA's live API and changes daily. If you do not see an image, check back later... they could be updating it.</p>
+          		<p class="center"><a href="https://github.com/KristieWhite">Click here for my GitHub account.</a></p>
+        	</div>
+    	</div><!--row for nasa-->
+
+    	<div class="row">
+      		<div class="u-full-width" id="footer">
+        		<p class="center">CONTACT ME: <a href="mailto:kristie@kristiewhite.net">kristie@kristiewhite.net</a><br>
+        		A very special thank you to <a href="http://www.fine-digital-art.com">MARY CLANAHAN ART</a> for the background image.</p>
+        		<p class="center" ><a href="#header" ><img id="homeIcon" src="images/homeIcon.png"/></a></p>
+      		</div>
+    	</div>
+
+  	</div><!--container-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-
+  <script src="js/main.js" type="text/javascript"></script>
+  
 </body>
 </html>

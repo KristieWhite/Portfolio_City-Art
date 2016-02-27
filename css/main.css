@@ -1,50 +1,105 @@
 #header {
+  background-color: rgba(45, 45, 45, 0.90);
   border-bottom: 18px solid #aaa;
+  padding: .25em;
 }
 h1 {
   text-shadow: 1px 1px #ccc;
+  padding: .25em 0 0 .25em;
+  margin: 1rem 0 -2rem .25rem;
+  /*margin-left: .25rem;*/
+  line-height: 1.6em;
+}
+#header h5 {
+  /*margin: 0 0 1rem auto;*/
+  margin-left: 1.4rem;
+  letter-spacing: .5px;
+  margin-bottom: auto;
+}
+#header h6 {
+  margin-left: 1.6rem;
+  letter-spacing: .5px;
+  line-height: 1.2em;
+}
+#emailHeader {
+  color: black;
+  font-weight: 600;
 }
 
-#githubIcon {width: 60px;}
-#twitterIcon {width: 60px;}
-#linkedIn {width: 60px;}
+#iconDiv h6 a {
+  /*color: rgb(10, 95, 111);*/
+  font-weight: 600;
+}
+#iconDiv h6 a:hover {
+  /*color: rgb(10, 121, 142);*/
+/*  color: ;*/
+}
+
+#githubIcon { width: 51px; }
+#twitterIcon { width: 51px; padding: 0 .25em; }
+#linkedIn { width: 51px; }
+#documentIcon { width: 55px; }
+#documentIcon img { margin-top: -25em; }
+#emailIcon { width: 55px; }
 
 /*social icons*/
 #iconDiv {
-  margin: auto;
+  /*background-color: rgba(162, 162, 162, 0.60);*/
+  background-color: rgba(89, 89, 89, 0.60);
+  border-bottom: 3px solid rgb(21, 22, 18);
 }
 .icons {
   margin: 0 0 0 0;
 }
-#smileIcon img {
-  /*text-align: center;*/
+.arrowUp {
+  width: 50px;
+  margin-bottom: -1em;
+  padding-left: 1em;
 }
-#rowAboutMe {
-  padding: 1rem;
+.arrowDown {
+  width: 50px;
+  margin-bottom: -1em;
+  margin-left: -1em;
 }
 
+/*********about me section*********/
+#aboutMeTitle {
+  border-bottom: 5px solid #aaa;
+  background-color: rgba(222, 222, 222, 0.60);
+}
+#h5AboutMe {
+  font-weight: 700;
+  color: black;
+  padding: .25em 0 0 .25em;
+}
 .divAboutMe {
-  /*height is styled in queries*/
-  margin-top: 5%;
-  background-color: rgba(90, 114, 134, 0.33);
+  background-color: rgba(22, 62, 51, 0.60);
   color: #eee;
-  overflow: auto;
-  padding: 1rem;
-  border: 5px solid rgb(21, 22, 18);
-}
-.divAboutMe > img {
-  /*text-align: center;*/
+  letter-spacing: .5px;
+  padding: 1em;
+  border: 4px solid rgb(21, 22, 18);
 }
 
+/*********code projects section*********/
+#h5Projects {
+  font-weight: 700;
+  color: black;
+  padding: .25em 0 0 .25em;
+}
+.projects {
+  border-bottom: 5px solid #aaa;
+  background-color: rgba(222, 222, 222, 0.60);
+}
 .divProjects {
   /*height is styled in queries*/
-  background-color: rgb(250, 250, 250);
-  color: black;
-  margin-top: 10%;
+  background-color: rgb(240, 240, 240);
+  color: rgb(10, 10, 10);
+  margin-top: 1%;
   border: 5px solid rgb(21, 22, 18);
   padding: 1rem;
+  overflow: auto;
 }
-
+ 
 #rowProjects h3 {
   background-color: rgb(245, 245, 245);
 }
@@ -58,12 +113,21 @@ h1 {
 }
 
 #header h5 {
-  margin-top: 2rem;
+  padding: .5em 0 .5em .25em;
 }
 
+/*********nasa section*********/
+#nasaFun {
+  border-bottom: 5px solid #aaa;
+  background-color: rgba(222, 222, 222, 0.60);
+}
+#h5FunStuff {
+  font-weight: 700;
+  color: black;
+  padding: .25em 0 0 .25em;
+}
 #rowNasa {
-  /*background-color: #109eb7;*/
-  background-color: rgba(89, 111, 131, 0.33);
+  background-color: rgba(89, 89, 89, 0.60);
   color: white;
   border: 5px solid rgb(21, 22, 18);
   padding: 1rem;
@@ -79,4 +143,15 @@ h1 {
   color: black;
   padding: 1rem;
   /*border: 15px solid rgba(0, 0, 10, 0.90);*/
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  padding: .5em;
+  font-size: .75em;
+}
+#homeIcon {
+  width: 45px;
 }

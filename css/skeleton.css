@@ -165,6 +165,15 @@ p {/*margin-top: 0; */}
   padding: 1em;
 }
 
+#rowProjects, #rowProjects2, a {
+  color: #3B88BE;
+  cursor: pointer;
+  text-decoration: none;
+}
+#rowProjects, #rowProjects2, a:hover {
+  color: teal;
+}
+
 #footer a {
   color: rgb(74, 171, 177);
   cursor: pointer;

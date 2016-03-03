@@ -17,10 +17,10 @@
 /* Grid–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  width: 100%;
-  max-width: 960px;
+  width: 98%;
+  /*max-width: 960px;*/
   margin: 0 auto;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   box-sizing: border-box;
 }
 
@@ -33,14 +33,17 @@
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    /*width: 85%;*/
+    width: 98%;
     padding: 0; }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 85%; }
+    /*width: 85%; */
+    width: 98%;
+  }
   .column,
   .columns {
     margin-left: 4%; }
@@ -438,6 +441,8 @@ there.*/
   #documentIcon {display: inline;}
   #emailIcon {display: inline;}
 
+  #footerEmail {display: none;}
+
   .divProjects {
     height: 315px;
     margin-bottom: .25em;
@@ -464,6 +469,8 @@ there.*/
   #githubIcon {display: inline;}
   #documentIcon {display: inline;}
   #emailIcon {display: inline;}
+
+  #footerEmail {display: none;}
 
   .divProjects {
     height: 300px;

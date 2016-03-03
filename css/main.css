@@ -153,6 +153,13 @@ h1 {
   padding: .5em;
   font-size: .75em;
 }
+#myImageFooter {
+  background-color: black;
+}
+#imageMe {
+  width: 115px;
+  border-radius: 50%;
+}
 #footer ul {
   /*width: 10%;*/
 }

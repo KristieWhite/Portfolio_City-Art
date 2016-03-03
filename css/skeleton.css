@@ -151,18 +151,27 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {/*margin-top: 0; */}
 
 /* Links–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
+#iconDiv a {
   /*color: #1EAEDB; */
-  color: rgb(50, 130, 180);
+  color: white;
   cursor: pointer;
   text-decoration: none;
 }
 /*a:hover { color: #0da0ab; }*/
-a:hover {
-  color: rgb(50, 149, 281);
+#iconDiv a:hover {
+  color: black;
 }
-.footer a {
-  color: green;
+#iconDiv li {
+  padding: 1em;
+}
+
+#footer a {
+  color: rgb(74, 171, 177);
+  cursor: pointer;
+  /*text-decoration: none;*/
+}
+#footer a:hover {
+  color: white;
 }
 
 
@@ -185,7 +194,8 @@ input[type="button"] {
   text-decoration: none;
   white-space: nowrap;
   /*background-color: transparent;*/
-  background-color: rgba(245, 245, 245, 0.50);
+  /*background-color: rgba(245, 245, 245, 0.50);*/
+  background-color: rgb(209,220,219);
   border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;

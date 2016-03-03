@@ -1,5 +1,5 @@
 #header {
-  background-color: rgba(45, 45, 45, 0.90);
+  background-color: rgba(40, 40, 40, 0.90);
   border-bottom: 18px solid #aaa;
   padding: .25em;
 }
@@ -24,6 +24,9 @@ h1 {
 #emailHeader {
   color: black;
   font-weight: 600;
+}
+.logoSize {
+  width: 85px;
 }
 
 #iconDiv h6 a {

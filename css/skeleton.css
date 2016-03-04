@@ -151,18 +151,16 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {/*margin-top: 0; */}
 
 /* Links–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#iconDiv a {
+#iconDiv ul a {
   /*color: #1EAEDB; */
+  display: block;
   color: white;
   cursor: pointer;
   text-decoration: none;
 }
 /*a:hover { color: #0da0ab; }*/
 #iconDiv a:hover {
-  color: black;
-}
-#iconDiv li {
-  padding: 1em;
+  color: teal;
 }
 
 #rowProjects, #rowProjects2, a {
@@ -183,7 +181,62 @@ p {/*margin-top: 0; */}
   color: white;
 }
 
+/* Lists–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*ul {list-style: circle inside;}*/
+ul {list-style: none}
+ol {list-style: decimal inside;}
 
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; 
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; 
+}
+
+li {
+  margin-bottom: 1rem; 
+}
+li.menu {
+  float: left;
+}
+#navBar ul {
+  position: relative;
+  float: left;
+  margin: 0;
+}
+#navBar li a {
+  display: block;
+}
+#iconDiv li {
+  padding: 1em 2em;
+}
+
+#navBar.menu {
+  display: inline;
+}
+#iconDiv ul li {
+  display: block;
+  position: relative;
+  margin: 0;
+}
+#iconDiv ul li.menu {
+  background: #121;
+}
+#iconDiv ul li:hover {
+  background-color: #233;
+}
+#iconDiv ul ul {
+  /*display: none;*/
+}
+#iconDiv ul ul li {
+  float: none;
+}
+#iconDiv ul ul li a {
+  display: block;
+}
 /* Buttons–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
@@ -306,23 +359,6 @@ label > .label-body {
   font-weight: normal; }
 
 
-/* Lists–––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {list-style: circle inside;}
-ol {list-style: decimal inside;}
-
-ol, ul {
-  padding-left: 0;
-  margin-top: 0; 
-}
-
-ul ul, ul ol, ol ol, ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; 
-}
-
-li {
-  margin-bottom: 1rem; 
-}
 
 /* Code–––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -443,6 +479,9 @@ there.*/
     font-size: 1.6rem;
     /*margin-top: 1em;*/
   }
+  #iconDiv li {
+  padding: 1em .5em;
+}
 
   #navProjects { display: none; }
   #navLinkedIn { display: none; }
@@ -489,6 +528,10 @@ there.*/
   #documentIcon {display: inline;}
   #emailIcon {display: inline;}
 
+  #iconDiv li {
+  padding: 1em .5em;
+}
+
   #footerEmail {display: none;}
 
   .divProjects {
@@ -517,6 +560,10 @@ there.*/
   #githubIcon {display: inline;}
   #documentIcon {display: none;}
   #emailIcon {display: none;}
+
+  #iconDiv li {
+  padding: 1em 1.5em;
+}
 
   .divProjects {
     height: 315px;
@@ -548,6 +595,9 @@ there.*/
   #header h5 {
     /*margin-bottom: -.25rem;*/
   }
+  #iconDiv li {
+  padding: 1em 2em;
+}
    .divProjects {
     height: 340px;
   }

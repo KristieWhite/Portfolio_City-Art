@@ -28,32 +28,60 @@
    		</div><!--row for header-->
 
    	    <div class="row iconRow">
+          <!--iconDiv formally contained icons, now it is a navBar without icons-->
      	    <div class="column" id="iconDiv">
           	 	<p class="clearFloat"></p>
 
     	 	 	<!--buttons-->
-           		<p class="center">
+           		<nav id="navBar">
                 <ul class="center">
-                <li id="navProjects"><a href="#h4Projects">PROJECTS</a></li> 
-      		     	<!-- <li id="navLinkedIn"><a href="https://www.linkedin.com/in/kristie-white-47765680">LinkedIn</a></li> -->
-    		       	<!-- <li id="navTwitter" ><a href="https://twitter.com/VegasTechKW">Twitter</a></li> -->
+                  <li class="menu"><a>GO TO</a>
+                    <ul>
+                      <li><a>About Me</a></li>
+                      <li><a href="#h4Projects">Projects</a></li>
+                      <li><a href="#h4Projects">NASA API</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu"><a>SOCIAL</a>
+                    <ul>
+                      <li><a href="https://www.linkedin.com/in/kristie-white-47765680">LinkedIn</a></li>
+                      <li><a href="http://nighttime-tranquility.tumblr.com/">Tumblr Blog</a></li>
+                      <li><a href="https://twitter.com/VegasTechKW">Twitter</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu"><a>RESOURCES</a>
+                    <ul>
+                      <li><a href="https://github.com/KristieWhite">GitHub</a></li>
+                      <li><a href="documents/KW_dev_web.pdf">My Resume</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu"><a>CONTACT</a>
+                    <ul>
+                      <li><a href="mailto:kristie@kristiewhite.net">Email Me</a></li>
+                    </ul>
+                  </li>
+                </ul> 
+              </nav> 
+                  
+                  <!-- <li id="navProjects"><a href="#h4Projects">PROJECTS</a></li>  -->
+                <!-- <li id="navLinkedIn"><a href="https://www.linkedin.com/in/kristie-white-47765680">LinkedIn</a></li> -->
+                <!-- <li id="navTwitter" ><a href="https://twitter.com/VegasTechKW">Twitter</a></li> -->
                  <!-- <li id="navTumblr"><a href="http://nighttime-tranquility.tumblr.com/">Tumblr</a></li> -->
-    	   	       <!-- <li id="navGitHub"><a href="https://github.com/KristieWhite">GitHub</a></li> -->
-    	       	 	<li id="navFunStuff"><a href="#h5FunStuff">FUN STUFF</a></li>
-                <li id="navResume"><a href="documents/KW_dev_web.pdf">RESUME</a></li>
-     	         	<li id="navContactMe"><a href="mailto:kristie@kristiewhite.net">CONTACT</a></li>
-              </p> 
-              </ul> 
+                 <!-- <li id="navGitHub"><a href="https://github.com/KristieWhite">GitHub</a></li> -->
+                <!-- <li id="navFunStuff"><a href="#h5FunStuff">FUN STUFF</a></li> -->
+                <!-- <li id="navResume"><a href="documents/KW_dev_web.pdf">RESUME</a></li> -->
+
+                <!-- <li id="navContactMe"><a href="mailto:kristie@kristiewhite.net">CONTACT</a></li> -->
 
     	  		<!--social icons-->
-      	   		<p class="center"><span class="icons">
-                <a href="https://www.linkedin.com/in/kristie-white-47765680"><img id="linkedInIcon" src="images/linkedIn.png"/></a>
-                <a href="http://nighttime-tranquility.tumblr.com/"><img id="tumblrIcon" src="images/tumblr_icon.png"/></a>
-     	     	    <a href="https://twitter.com/VegasTechKW"><img id="twitterIcon" src="images/twitter_icon.png"></a>
-     	     	    <a href="https://github.com/KristieWhite"><img id="githubIcon" src="images/github2.png"/></a>
-     	        	<a href="documents/KW_dev_web2.pdf"><img id="documentIcon" src="images/documentIcon.png"/></a>
-     	        	<a href="mailto:kristie@kristiewhite.net"><img id="emailIcon" src="images/emailIcon.png"/></a>
-              </span></p>
+      	   		<!-- <p class="center"><span class="icons"> -->
+                <!-- <a href="https://www.linkedin.com/in/kristie-white-47765680"><img id="linkedInIcon" src="images/linkedIn.png"/></a> -->
+                <!-- <a href="http://nighttime-tranquility.tumblr.com/"><img id="tumblrIcon" src="images/tumblr_icon.png"/></a> -->
+     	     	    <!-- <a href="https://twitter.com/VegasTechKW"><img id="twitterIcon" src="images/twitter_icon.png"></a> -->
+     	     	    <!-- <a href="https://github.com/KristieWhite"><img id="githubIcon" src="images/github2.png"/></a> -->
+     	        	<!-- <a href="documents/KW_dev_web2.pdf"><img id="documentIcon" src="images/documentIcon.png"/></a> -->
+     	        	<!-- <a href="mailto:kristie@kristiewhite.net"><img id="emailIcon" src="images/emailIcon.png"/></a> -->
+              <!-- </span></p> -->
 
       	 		<!-- <h6 class="center" id="emailHeader"><a href="mailto:kristie@kristiewhite.net">email: kristie@kristiewhite.net</a></h6> -->
        		</div>
@@ -114,7 +142,7 @@
 
       	<div id="rowProjects2">
 
-        	<div class="one-third column divProjects"><a href="https://github.com/jaimariev/ptc_app/commits/kristie">
+        	<div class="one-third column divProjects"><a href="http://jaimariev.github.io/ptc_app/">
           		<h4 class="center">Parent-Teacher</h4>
           		<img src="images/teacher_parent.png"/>
           		<p class="center"><a id="tpConnection">read me...</a></p>

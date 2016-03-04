@@ -229,12 +229,12 @@ li.menu {
   background-color: #233;
 }
 #iconDiv ul ul {
-  /*display: none;*/
+  display: none;
 }
 #iconDiv ul ul li {
   float: none;
 }
-#iconDiv ul ul li a {
+#iconDiv ul li:hover > ul {
   display: block;
 }
 /* Buttons–––––––––––––––––––––––––––––––––––––––––––––––––– */

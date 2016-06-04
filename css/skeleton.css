@@ -17,7 +17,7 @@
 /* Grid–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  width: 98%;
+  width: 99%;
   /*max-width: 960px;*/
   margin: 0 auto;
   /*padding: 0 20px;*/
@@ -34,7 +34,7 @@
 @media (min-width: 400px) {
   .container {
     /*width: 85%;*/
-    width: 98%;
+    width: 99%;
     padding: 0; }
 }
 
@@ -42,7 +42,7 @@
 @media (min-width: 550px) {
   .container {
     /*width: 85%; */
-    width: 98%;
+    width: 99%;
   }
   .column,
   .columns {
@@ -151,16 +151,18 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 p {/*margin-top: 0; */}
 
 /* Links–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#iconDiv ul a {
+#iconDiv a {
   /*color: #1EAEDB; */
-  display: block;
   color: white;
   cursor: pointer;
   text-decoration: none;
 }
 /*a:hover { color: #0da0ab; }*/
 #iconDiv a:hover {
-  color: teal;
+  color: black;
+}
+#iconDiv li {
+  padding: 1em;
 }
 
 #rowProjects, #rowProjects2, a {
@@ -181,62 +183,7 @@ p {/*margin-top: 0; */}
   color: white;
 }
 
-/* Lists–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*ul {list-style: circle inside;}*/
-ul {list-style: none}
-ol {list-style: decimal inside;}
 
-ol, ul {
-  padding-left: 0;
-  margin-top: 0; 
-}
-
-ul ul, ul ol, ol ol, ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; 
-}
-
-li {
-  margin-bottom: 1rem; 
-}
-li.menu {
-  float: left;
-}
-#navBar ul {
-  position: relative;
-  float: left;
-  margin: 0;
-}
-#navBar li a {
-  display: block;
-}
-#iconDiv li {
-  padding: 1em 2em;
-}
-
-#navBar.menu {
-  display: inline;
-}
-#iconDiv ul li {
-  display: block;
-  position: relative;
-  margin: 0;
-}
-#iconDiv ul li.menu {
-  background: #121;
-}
-#iconDiv ul li:hover {
-  background-color: #233;
-}
-#iconDiv ul ul {
-  display: none;
-}
-#iconDiv ul ul li {
-  float: none;
-}
-#iconDiv ul li:hover > ul {
-  display: block;
-}
 /* Buttons–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button,
@@ -359,6 +306,23 @@ label > .label-body {
   font-weight: normal; }
 
 
+/* Lists–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {list-style: circle inside;}
+ol {list-style: decimal inside;}
+
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; 
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; 
+}
+
+li {
+  margin-bottom: 1rem; 
+}
 
 /* Code–––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {
@@ -479,25 +443,22 @@ there.*/
     font-size: 1.6rem;
     /*margin-top: 1em;*/
   }
-  #iconDiv li {
-  padding: 1em .5em;
-}
 
-  #navProjects { display: none; }
+  #navProjects { display: inline; }
   #navLinkedIn { display: none; }
   #navTwitter { display: none; }
   #navGitHub { display: none; }
   #navTumblr { display: none; }
-  #navFunStuff { display: none; }
+  #navFunStuff { display: inline; }
   #navResume { display: none; }
-  #navContactMe { display: none; }
+  #navContactMe { display: inline; }
 
   #linkedInIcon {display: inline;}
   #tumblrIcon {display: inline;}
   #twitterIcon {display: inline;}
   #githubIcon {display: inline;}
   #documentIcon {display: inline;}
-  #emailIcon {display: inline;}
+  #emailIcon {display: none;}
 
   #footerEmail {display: none;}
 
@@ -512,25 +473,21 @@ there.*/
 /* phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 
-  #navProjects { display: none; }
+  #navProjects { display: inline; }
   #navLinkedIn { display: none; }
   #navTwitter { display: none; }
   #navGitHub { display: none; }
   #navTumblr { display: none; }
-  #navFunStuff { display: none; }
-  #navResume { display: none; }
-  #navContactMe { display: none; }
+  #navFunStuff { display: inline; }
+  #navResume { display: inline; }
+  #navContactMe { display: inline; }
 
   #linkedInIcon {display: inline;}
   #tumblrIcon {display: inline;}
   #twitterIcon {display: inline;}
   #githubIcon {display: inline;}
-  #documentIcon {display: inline;}
-  #emailIcon {display: inline;}
-
-  #iconDiv li {
-  padding: 1em .5em;
-}
+  #documentIcon {display: none;}
+  #emailIcon {display: none;}
 
   #footerEmail {display: none;}
 
@@ -561,9 +518,7 @@ there.*/
   #documentIcon {display: none;}
   #emailIcon {display: none;}
 
-  #iconDiv li {
-  padding: 1em 1.5em;
-}
+  #footerEmail {display: inline;}
 
   .divProjects {
     height: 315px;
@@ -591,13 +546,12 @@ there.*/
   #githubIcon {display: inline;}
   #documentIcon {display: none;}
   #emailIcon {display: none;}
+  
+  #footerEmail {display: inline;}
 
   #header h5 {
     /*margin-bottom: -.25rem;*/
   }
-  #iconDiv li {
-  padding: 1em 2em;
-}
    .divProjects {
     height: 340px;
   }
@@ -623,6 +577,8 @@ there.*/
   #githubIcon {display: inline;}
   #documentIcon {display: none;}
   #emailIcon {display: none;}
+  
+  #footerEmail {display: inline;}
 
   .divProjects { height: 340px; }
   #rowProjects { margin-top: -1%; }

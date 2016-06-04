@@ -11,15 +11,15 @@ $(document).ready(function() {
    $('#animalLink').slideToggle(1000);
   });
 
-//toggle accordian description
+//toggle accordion description
   $(function() {
-    $('#accordianDesc').hide();
-    $('#accordianLink').hide();
+    $('#accordionDesc').hide();
+    $('#accordionLink').hide();
   });
 
-  $('#accordian').click(function() {
-    $('#accordianDesc').slideToggle(1000);
-    $('#accordianLink').slideToggle(1000);
+  $('#accordion').click(function() {
+    $('#accordionDesc').slideToggle(1000);
+    $('#accordionLink').slideToggle(1000);
   });
 
   //toggle faux restaurant description

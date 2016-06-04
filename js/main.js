@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+  // document.getElementById('hideConnects').style.display = 'none';
+
+  // document.getElementById('hideConnects').onclick = function() {
+  //   document.getElementById('hideConnects').style.display = 'display';
+  // }
+
 //toggle animal description
   $(function() {
     $('#animalDesc').hide();

@@ -394,6 +394,9 @@ form {
 .hidden {
   display: none;
 }
+.bold {
+  font-weight: 600;
+}
 
 /* Misc–––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
